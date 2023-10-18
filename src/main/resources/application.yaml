@@ -1,0 +1,7 @@
+spring:
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          jwk-set-uri: https://www.googleapis.com/service_accounts/v1/jwk/firebase-adminsdk-53ji8@testyes-f90bf.iam.gserviceaccount.com
+          issuer-uri: https://securetoken.google.com/testyes-f90bf
